@@ -27,13 +27,6 @@ namespace KWZP2019
             this.Hide();
             hr.Show();
         }
-
-        private void btnFinances_Click(object sender, EventArgs e)
-        {
-            Finances finances = new Finances(db, startForm, this);
-            this.Hide();
-            finances.Show();
-        }
         
         private void btnReturnMain_Click(object sender, EventArgs e)
         {

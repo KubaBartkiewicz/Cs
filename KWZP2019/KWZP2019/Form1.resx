@@ -141,6 +141,9 @@
   <data name="btnSales.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
+  <data name="btnSales.Text" xml:space="preserve">
+    <value>Dział handlowy</value>
+  </data>
   <data name="btnSales.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>BottomCenter</value>
   </data>
@@ -179,6 +182,9 @@
   </data>
   <data name="btnProduction.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
+  </data>
+  <data name="btnProduction.Text" xml:space="preserve">
+    <value>Produkcja</value>
   </data>
   <data name="btnProduction.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>BottomCenter</value>
@@ -261,6 +267,9 @@
   <data name="btnQA.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
   </data>
+  <data name="btnQA.Text" xml:space="preserve">
+    <value>Kontrola jakości</value>
+  </data>
   <data name="btnQA.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>BottomCenter</value>
   </data>
@@ -299,6 +308,9 @@
   </data>
   <data name="btnMaintenance.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
+  </data>
+  <data name="btnMaintenance.Text" xml:space="preserve">
+    <value>Utrzymanie ruchu</value>
   </data>
   <data name="btnMaintenance.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>BottomCenter</value>
@@ -351,12 +363,12 @@
   <data name="&gt;&gt;lblWelcome.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="$this.Localizable" type="System.Boolean, mscorlib">
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
-  </data>
-  <data name="$this.Locked" type="System.Boolean, mscorlib">
+  </metadata>
+  <metadata name="$this.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
-  </data>
+  </metadata>
   <data name="$this.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Stretch</value>
   </data>

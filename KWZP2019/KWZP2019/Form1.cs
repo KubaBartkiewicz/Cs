@@ -21,6 +21,31 @@ namespace KWZP2019
 
         }
 
+        private void btnProduction_Click(object sender, EventArgs e)
+        {
+            Production productionForm = new Production(db);
+            productionForm.Show();
+        }
+        private void btnSales_Click(object sender, EventArgs e)
+        {
+            SalesDepartmentForm salesDepartmentForm = new SalesDepartmentForm(db, this);
+            salesDepartmentForm.Show();
+            this.Hide();
+        }
+        private void btnQA_Click(object sender, EventArgs e)
+        {
+            QualityControl qualityControlForm = new QualityControl(db, this);
+            qualityControlForm.Show();
+            this.Hide();
+        }
+
+        private void btnMaintenance_Click(object sender, EventArgs e)
+        {
+            MaintenanceManagement maintenanceManagement = new MaintenanceManagement(db, this);
+            maintenanceManagement.Show();
+            this.Hide();
+        }
+
         private void btnHR_Click(object sender, EventArgs e)
         {
             FinancesAndHR finanseIHR = new FinancesAndHR(db, this);
